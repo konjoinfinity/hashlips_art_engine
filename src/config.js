@@ -5,17 +5,17 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Konjo Portals";
-const description = "Mutlicolor Dimensions";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "Ugly Babe";
+const description = "Reauty Halloween NFT Series";
+const baseUri = "ipfs://QmdXQzecvg7UC48TYZogsdZ85CJs6TpZ1jkrbTJVMZ9WB9";
 
 const solanaMetadata = {
   symbol: "YC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://www.youtube.com/c/hashlipsnft",
+  external_url: "https://www.blingyte.com/",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "",
       share: 100,
     },
   ],
@@ -24,10 +24,14 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 30,
+    growEditionSizeTo: 4995,
     layersOrder: [
-      { name: "Background" },
-      { name: "Circle" },
+      { name: "01.Background" },
+      { name: "02.Body" },
+      { name: "03.Hat" },
+      { name: "04.Top" },
+      { name: "05.Mouth" },
+      { name: "06.Eyes" },
     ],
   },
 ];
