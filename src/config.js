@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Ugly Babe";
-const description = "Reauty Halloween NFT Series";
+const namePrefix = "Toxic Baebee";
+const description = `The beauty industry lacks transparency and regulation. Beauty consumers are frustrated with misleading information and exaggerated marketing claims. This deceptive industry which idolizes the "skinny and beauty culture," leads many customers to obtain unnecessary plastic surgery, unhealthy eating habits, and unknowingly use beauty products with toxic ingredients. The "Toxic Baebee" NFT Series was designed to generate public awareness by illustrating the "Toxic Side of Beauty".`;
 const baseUri = "ipfs://QmdXQzecvg7UC48TYZogsdZ85CJs6TpZ1jkrbTJVMZ9WB9";
 
 const solanaMetadata = {
@@ -24,14 +24,14 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 4995,
+    growEditionSizeTo: 100,
     layersOrder: [
-      { name: "01.Background" },
-      { name: "02.Body" },
-      { name: "03.Hat" },
-      { name: "04.Top" },
-      { name: "05.Mouth" },
-      { name: "06.Eyes" },
+      { name: "Background" },
+      { name: "Body" },
+      { name: "Hat" },
+      { name: "Top" },
+      { name: "Mouth" },
+      { name: "Eyes" },
     ],
   },
 ];
@@ -67,7 +67,7 @@ const text = {
 };
 
 const pixelFormat = {
-  ratio: 2 / 128,
+  ratio: 15 / 128,
 };
 
 const background = {
